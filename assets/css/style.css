@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+header {
+  text-align: center;
+  max-width: 1280px;
+  font-weight: 300;
+}
+header img {
+  width: 100%;
+}
+header h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+main div {
+  width: 80%;
+  margin: auto;
+  display: flow-root;
+  margin-top: 73px;
+}
+main img {
+  width: 399px;
+  height: 237px;
+  float: right;
+}
+main p {
+  margin-top: 1em;
+  text-align: left;
+  font-weight: 300;
+  padding-bottom: 1em;
+  width: 50%;
+}
+.caracteristicas {
+  margin-top: 1em;
+  background-color: rgba(30, 26, 19, 1);
+  text-align: center;
+  height: 348px;
+  opacity: 0,98%;
+}
+.titulo {
+  padding-top: 75px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.item {
+  margin-top: 50px;
+  display: inline-block;
+  width: 200px;
+  font-size: 20px;
+}
+.item p {
+  margin-top: 0, 5em;
+  font: size 16px;
+}
+.galeria {
+  width: 70%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.galeria img {
+  width: 316px;
+  height: 202px;
+  margin: 0, 5em;
+}
+footer {
+  background-color: rgba(30, 26, 19, 1);
+  padding: 1em;
+  opacity: 0, 94%;
+  text-align: center;
+}
+footer p{
+    color:white;
+}
